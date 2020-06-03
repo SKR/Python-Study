@@ -1,4 +1,5 @@
 # UTF-8  Python3.8
+# TIME 2020-06-03 20:17
 import os
 import binascii
 import datetime
