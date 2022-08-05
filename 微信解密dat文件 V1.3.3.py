@@ -1,3 +1,5 @@
+# UTF-8  Python3.8
+# TIME 2022-08-05 09:26
 import os
 import binascii
 import datetime
