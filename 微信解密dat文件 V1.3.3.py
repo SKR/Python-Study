@@ -407,11 +407,11 @@ def clear_rubbish():
     C1.start()
 
 def update_messagebox():
-    tkinter.messagebox.showinfo('1.3.3版本更新说明', '（1）新增  针对不同格式jpg、png、gif加密文件的支持。\n'
+    tkinter.messagebox.showinfo('1.3.3版本更新说明', '（1）新增  针对不同格式jpg、png、gif加密文件的支持\n'
                                                '（2）优化  自动识别文件类型\n'
                                                '（3）增加  输出按天分类转换\n'
                                                '（4）修复  选择文件夹内没有DAT文件时候的提示，提升使用体验\n'
-                                               '（5）完善  拖动获取转换目录、输出目录功能'
+                                               '（5）完善  拖动获取转换目录、输出目录功能\n'
                                                '（6）修复  已知BUG\n ')
 
 
@@ -427,7 +427,7 @@ screen_center_height =round((screen_height-500)/2)
 
 # windnd.hook_dropfiles(root,func=get_dir_in)
 root.geometry('455x500+' + str(screen_center_width) + '+' + str(screen_center_height))   # 长x高 x坐标 y坐标  初始值455x460+533+155  第二值455x500
-root.title('微信dat转图片转换器 v1.3.2 ©Powered by Jiang')
+root.title('微信dat转图片转换器 v1.3.3 ©Powered by Jiang')
 root.resizable(0,0)
 
 #---------------------------------------输入控件--------------------------------------------------
